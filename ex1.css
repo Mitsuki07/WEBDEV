@@ -1,0 +1,24 @@
+table, td{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 30px;
+    text-align: center;
+}
+#tr1{
+    background-color: cyan;
+}
+#tr2{
+    background-color: greenyellow;
+}
+#tr3{
+    background-color: orange;
+}
+#tr4{
+    background-color: lightcoral;
+}
+#tr5{
+    background-color: lightskyblue;
+}
