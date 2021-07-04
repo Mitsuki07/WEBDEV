@@ -1,0 +1,46 @@
+#div1{
+    text-align: center;
+    background-color: peachpuff;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid darkslategray;
+    border-left: 10px solid gray;
+    border-right: 10px solid darkslategray;
+    width:350px;
+    margin:10px;
+}
+h1{
+    padding:15px;
+    margin:10px;
+    border: hidden;
+    text-align: center;
+    background-color: rgb(202, 91, 91);
+}
+mark{
+    background-color: red;
+    color:white;
+}
+#fullname{
+    padding:15px;
+    width:300px;
+    border:none;
+}
+#emailid{
+    padding:15px;
+    width:300px;
+    border:none;
+}
+#subject{
+    padding:15px;
+    width:300px;
+    border:none;
+}
+#message{
+    padding:15px;
+    width:300px;
+    border:none;
+}
+#send{
+    padding:15px;
+    width:330px;
+    background-color:yellow;
+}
