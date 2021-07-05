@@ -1,0 +1,38 @@
+table{
+    border: 1px hidden black;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 10px 5px;
+    background-color: orange;
+}
+td{
+    color: yellowgreen;
+    padding: 8px;
+    background-color: darkslateblue;
+}
+td.column1{
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+td.column2{
+    text-align: left;
+    padding-right: 15px;
+}
+#lastrow{
+    text-align: right;
+    padding: 12px 5px;
+    background-color: orange;
+}
+#submit{
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+}
+#cancel{
+    padding: 10px 20px;
+    background-color: tomato;
+    border:none;
+}

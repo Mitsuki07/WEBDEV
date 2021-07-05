@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="ex3.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2">Sign Up</th>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="firstname">First Name</label>
+                </td>
+                <td  class="column2">
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="lastname">Last Name</label>
+                </td>
+                <td class="column2">
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td class="column2">
+                    <input type="date" id="dob" name="dob" placeholder="Enter Date of Birth">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="gender">Gender</label>
+                </td>
+                <td class="column2">
+                    <input type="radio" id="gender" name="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="gender" name="female" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="country">Country</label>
+                </td>
+                <td class="column2">
+                    <select id="country" name="country">
+                        <option value="" disabled selected>Country</option>
+                        <option value="India">India</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="email">E-mail</label>
+                </td>
+                <td class="column2">
+                    <input type="email" id="email" name="email" placeholder="Enter E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="phnnumber">Phone Number</label>
+                </td>
+                <td class="column2">
+                    <input type="number" id="phnnumber" name="phnnumber" placeholder="Enter Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="password">Password</label>
+                </td>
+                <td class="column2">
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1">
+                    <label for="repassword">Confirm Password</label>
+                </td>
+                <td class="column2">
+                    <input type="password" id="repassword" name="repassword">
+                </td>
+            </tr>
+            <tr>
+                <td class="column1"></td>
+                <td class="column2">
+                    <input type="checkbox" id="tos" name="tos" value="I Agree to the Terms of Use" required>
+                    <label for="tos">I Agree to the Terms of Use</label>
+                </td>
+            </tr>
+            <tr>
+                <td id="lastrow" class="column2" colspan="2">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="cancel">Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
