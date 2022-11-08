@@ -18,15 +18,19 @@
 </head>
 <body>
     <div>
-    <h1 style="text-align: center;">Good Vibes Form</h1>
-    <form action="/action_page.php" method="get">
-        <table style="background-color: #dddddd" >
-            <th colspan="2">Tell us something positive that happened to you today</th>
+        <h1 style="text-align: center;">Good Vibes Form</h1>
+        <form action="/action_page.php" method="get">
+        <table style="background-color: #dddddd;" >
+            <tr>
+                <th colspan="2">Tell us something positive that happened to you today</th>
+            </tr>
             <tr>
                 <td>
                     <label for="name">Name</label>
                 </td>
-                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+                <td>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </td>
             </tr>
             <tr>
                 <td>
@@ -46,7 +50,7 @@
                     <label for="location">Where did it happen?</label>
                 </td>
                 <td>
-                    <select id="location" name="location">
+                    <select id="location" name="location" multiple>
                         <option value="at home">At home</option>
                         <option value="outside home">Outside home</option>
                     </select>
@@ -57,11 +61,11 @@
                     <label for="time">At what time of day did it happen?</label>
                 </td>
                 <td>
-                    <input type="radio" id="time" name="morning" value="Morning">
+                    <input type="radio" name="time" id="morning" value="Morning">
                     <label for="morning">Morning</label><br>
-                    <input type="radio" id="time" name="afternoon" value="Afternoon">
+                    <input type="radio" name="time" id="afternoon" value="Afternoon">
                     <label for="afternoon">Afternoon</label><br>
-                    <input type="radio" id="time" name="evening" value="Evening">
+                    <input type="radio" name="time" id="evening" value="Evening">
                     <label for="evening">Evening</label><br>
                 </td>
             </tr>
@@ -70,15 +74,15 @@
                     <label for="emotions">What emotions did you experience?(Select all that apply)</label>
                 </td>
                 <td>
-                    <input type="checkbox" id="emotions" name="excited" value="Excited">
+                    <input type="checkbox" name="emotions" id="excited" value="Excited">
                     <label for="excited">Excited</label><br>
-                    <input type="checkbox" id="emotions" name="humbled" value="Humbled">
+                    <input type="checkbox" name="emotions" id="humbled" value="Humbled">
                     <label for="humbled">Humbled</label><br>
-                    <input type="checkbox" id="emotions" name="elated" value="Elated">
+                    <input type="checkbox" name="emotions" id="elated" value="Elated">
                     <label for="elated">Elated</label><br>
-                    <input type="checkbox" id="emotions" name="loved" value="Loved">
+                    <input type="checkbox" name="emotions" id="loved" value="Loved">
                     <label for="loved">Loved</label><br>
-                    <input type="checkbox" id="emotions" name="enthusiastic" value="Enthusiastic">
+                    <input type="checkbox" name="emotions" id="enthusiastic" value="Enthusiastic">
                     <label for="enthusiastic">Enthusiastic</label><br>
                 </td>
             </tr>
@@ -87,13 +91,20 @@
                     <label for="description">Please describe your positive experience.</label>
                 </td>
                 <td>
-                    <textarea name="description" id="description" cols="30" rows="3" placeholder="Enter your experience here..."></textarea>
+                    <textarea name="description" id="description" cols="30" rows="3" placeholder="Enter your experience here..." style="resize: none;"></textarea>
                 </td>
             </tr>
             <tr>
-                <td></td>
                 <td>
-                    <input type="submit" value="Submit">
+                    <label for="myfile">Select a file:</label>
+                </td>
+                <td>
+                    <input type="file" id="myfile" name="myfile">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit" style="background-color: #00ffff;">
                 </td>
             </tr>
         </table>
